@@ -7,13 +7,34 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;   font-weight: b
 #main {margin-left: 120px}
 
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
-
+.w3-jumbo{
+  font-size: 40px;
+  font-weight: bold;
+}
+@media (min-width: 250px) and (max-width: 567px){
+  .w3-jumbo{
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
 .w3-sidebar {
   width: 120px;
   background: #222;
 }
+@media (min-width: 250px) and (max-width: 567px){
+  .w3-sidebar {
+    width: 0px;
+    background: #222;
+  }
+}
 
 .w3-circle { border-radius:50%; }
+@media (min-width: 250px) and (max-width: 567px){
+  .w3-circle {
+     border-radius:50%;
+     width: 100%;
+   }
+}
 .w3-center { text-align: center; }
 .w3-small { font-size: 12px; }
 
@@ -25,10 +46,17 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;   font-weight: b
   background-color: #2a2b2b;
 }
 
-.front {
+.w3-jum {
   font-weight: bold;
   font-size: 23px;
   margin-bottom: 30px;
+}
+@media (min-width: 250px) and (max-width: 567px){
+  .w3-jum {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
 }
 .w3-bar-block.w3-center .w3-bar-item {
   text-align: center;
@@ -112,12 +140,34 @@ nav, section { display: block; }
 
 .w3-text-light-grey, .w3-hover-text-light-grey:hover,
  .w3-text-light-gray, .w3-hover-text-light-gray:hover { color: #f1f1f1; }
-
+ @media (min-width: 250px) and (max-width: 567px){
+  .w3-text-light-grey, .w3-hover-text-light-grey:hover,
+  .w3-text-light-gray, .w3-hover-text-light-gray:hover {
+    color: #f1f1f1;
+    font-size: 20px;
+  }
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   margin: 10px 0;
 }
-
+@media (min-width: 250px) and (max-width: 567px){
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+}
+h5 {
+  font-weight: bold;
+  font-size: 40px;
+}
+@media (min-width: 250px) and (max-width: 567px){
+  h5 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
 h2 {
   font-size: 30px;
 }
@@ -225,6 +275,14 @@ button, input, select, textarea, optgroup {
   width: 100%;
   background-color:#333333
 }
+@media (min-width: 250px) and (max-width: 567px){
+  .progress {
+    margin-top: 12px;
+    height:19px;
+    width: 100%;
+    background-color:#333333
+  }
+}
 .progress-bar  { width: 90%; }
 .progress-bar1 { width: 90%; }
 .progress-bar2 { width: 90%; }
@@ -251,8 +309,22 @@ button, input, select, textarea, optgroup {
   line-height: 8px;
   font-weight: bold;
 }
+@media (min-width: 250px) and (max-width: 567px){
+  .java {
+    font-size: 11px;
+    color: black;
+    text-align: center;
+    line-height: 0px;
+    font-weight: bold;
+  }
+}
 .profile{ color: rgb(221, 221, 221); }
-
+@media (min-width: 250px) and (max-width: 567px){
+  .profile{
+     color: rgb(221, 221, 221);
+     font-size: 12px; 
+    }
+}
 .lead{
   color: rgb(221, 221, 221);
   font-size: 18px;
@@ -278,6 +350,7 @@ button, input, select, textarea, optgroup {
   padding-top: 64px;
   padding-bottom: 64px;
 }
+
 .w3-row .w3-half img{
   width: 100%;
   height: 133px;
@@ -367,6 +440,15 @@ button, input, select, textarea, optgroup {
   justify-content: center;
   
 }
+@media (min-width: 250px) and (max-width: 567px){
+  .gall {
+    width: 100%;
+    margin: 30px auto 0 ;
+    display: flex;
+    justify-content: center;
+    
+  }
+}
 .gall .box {
   position: relative;
   background: #ff0;
@@ -380,6 +462,15 @@ button, input, select, textarea, optgroup {
   margin-right: 50px;
   margin-left: 50px;
 }
+@media (min-width: 250px) and (max-width: 567px){
+  .gall .box:hover{
+    transform: scale(1.3);
+    box-shadow: 1px 1px 1px 1px;
+    z-index: 2;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
 .gall .box .imgBox {
   position: relative;
   overflow: hidden;
@@ -390,8 +481,21 @@ button, input, select, textarea, optgroup {
   transition: transform 2s;
   transition: ease-in-out all .5s;
 }
+@media (min-width: 250px) and (max-width: 567px){
+  .gall .box .imgBox img {
+    width: 100%;
+    height: 200px;
+    transition: transform 2s;
+    transition: ease-in-out all .5s;
+  }
+}
 .gall .box:hover .imgBox img {
   transform: scale(1.2);
+}
+@media (min-width: 250px) and (max-width: 567px){
+  .gall .box:hover .imgBox img {
+    transform: scale(1);
+  }
 }
 .gall .box .details
 {
@@ -413,6 +517,15 @@ button, input, select, textarea, optgroup {
   text-align: center;
   color: #fff;
 }
+@media (min-width: 250px) and (max-width: 567px){
+  .gall .box .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-10%);
+    text-align: center;
+    color: #fff;
+  }
+}
 .gall .box .details .content .hhh{
   margin: -85px 0px 5px 5px;
   padding: 0;
@@ -422,13 +535,33 @@ button, input, select, textarea, optgroup {
   font-weight: bold;
   color: rgb(0, 175, 137);
 }
+@media (min-width: 250px) and (max-width: 567px){
+  .gall .box .details .content .hhh{
+    margin: -15px 0px 0px 0px;
+    padding: 0;
+    top: 6px;
+    text-align: start;
+    font-size: 8px;
+    font-weight: bold;
+    color: rgb(0, 175, 137);
+  }
+}
 
 .gall .box .details .content .ppp {
   margin:0px 0px 5px 5px;
   padding: 0;
-  top: 10px;
+  top: 6px;
   font-size: 11px;
   text-align: start;
+}
+@media (min-width: 250px) and (max-width: 567px){
+  .gall .box .details .content .ppp {
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    top: 0px;
+    font-size: 6px;
+    text-align: start;
+}
 }
 .btnnnn {
   float: left;
@@ -436,6 +569,15 @@ button, input, select, textarea, optgroup {
   font-size: 10px;
   margin-right: 10px;
   margin-left: 10px;
+}
+@media (min-width: 250px) and (max-width: 567px){
+  .btnnnn {
+    float: left;
+    width: 62%;
+    font-size: 5px;
+    margin-right: 5px;
+    margin-left: 1px;
+  }
 }
 
 .w3-theme-d1 {
@@ -496,6 +638,14 @@ a:hover{
 
 .w3-section {
   color: rgb(240, 240, 240);
+
+}
+@media (min-width: 250px) and (max-width: 567px){
+  .w3-section {
+    color: rgb(240, 240, 240);
+    font-size: x-small;
+  
+  }
 }
 .Projects {
   text-align: left;
@@ -504,6 +654,17 @@ a:hover{
   color: whitesmoke;
   margin-bottom: 0px;
   margin-top: 50px;
+}
+@media (min-width: 250px) and (max-width: 567px){
+  .Projects {
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    margin-top: 50px;
+  }
+
 }
 
 

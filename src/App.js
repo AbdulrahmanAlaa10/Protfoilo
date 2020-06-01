@@ -55,7 +55,7 @@ function App() {
         <div className="w3-padding-large" id="main">
         <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
           <h5 className="w3-jumbo">Abdulrahman Alaa</h5>
-          <p className="front">Front-End React Developer</p>
+          <h2 className="w3-jum">Front-end Developer</h2>
           <img src="/images/lolo.jpg" alt="boy" className="w3-image w3-circle" width="220" height="200" />
         </header>
 
@@ -63,7 +63,7 @@ function App() {
         <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
           <h2 className="w3-text-light-grey">Profile</h2>
           <hr className="w3-opacity" />
-          <p className="profile">I am a front end developer. I have about a year and a half experience in programming. I am looking for work. In this period, I have many projects that I worked on on my own. I will show you all the skills that I learned and all the projects that I worked on. I hope you like it.
+          <p className="profile">I am a front end developer. I have about a year and a half experience in programming. I am looking for work. In this fields, I will show you all the skills that I learned and all the projects that I worked on. I hope you like it.
           I am looking forward to working in the multinational company. thank you for reading.
           </p>
 
@@ -265,8 +265,8 @@ function App() {
     <div className="w3-section">
       <p><i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Cairo Egypt</p>
       <p><i className="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 0201008698567</p>
-      <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: Abdulrahmaanalaa1999@gmail.com</p>
-    </div><br />
+      <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>Abdulrahmaanalaa1999@gmail.com</p>
+    </div>
   </div>
 
 
