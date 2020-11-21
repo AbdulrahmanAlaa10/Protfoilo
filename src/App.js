@@ -56,7 +56,7 @@ function App() {
         <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
           <h5 className="w3-jumbo">Abdulrahman Alaa</h5>
           <h2 className="w3-jum">Front-end Developer</h2>
-          <img src="/images/lolo.jpg" alt="boy" className="w3-image w3-circle" width="220" height="200" />
+          <img src="/images/2.jpg" alt="boy" className="w3-image w3-circle" width="220" height="200" />
         </header>
 
         {/* PROFILE */}
