@@ -63,8 +63,7 @@ function App() {
         <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
           <h2 className="w3-text-light-grey">Profile</h2>
           <hr className="w3-opacity" />
-          <p className="profile">I am a front end developer. I have about a year and a half experience in programming. I am looking for work. In this fields, I will show you all the skills that I learned and all the projects that I worked on. I hope you like it.
-          I am looking forward to working in the multinational company. thank you for reading.
+          <p className="profile">I am a Front-end developer with more than a year of experience implementing programming projects. I am looking foward to work in a multinationational company.  Above you can see my skills and projects I had work on hoping you can consider the possibility of a professional collaboration. I´ll be waiting for your news! I would like to join your team!
           </p>
 
     {/* SKILLS AND MY ABOUT */}
@@ -102,6 +101,13 @@ function App() {
             <h4 className="java">Javascript</h4>
             </div>
           </div>
+
+          <div className="progress">
+            <div className="progress-bar6 progress-bar-animated progress-bar-striped bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <h4 className="java">PugJs</h4>
+            </div>
+          </div>
+
     </div>
 
     <div className="col-md-6 col-md-offset-1">
@@ -128,6 +134,7 @@ function App() {
             <h4 className="java">Sass</h4>
             </div>
           </div>
+          
 
           <div className="progress">
             <div className="progress-bar7 progress-bar-animated progress-bar-striped bg-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -143,8 +150,70 @@ function App() {
     {/* WORK AND MY PROJECTS */}
 
     <h2 className="Projects">Projects</h2>
+
+    <section className="gallray" id="work">
+        <div className="gall">
+          <div className="box">
+            <div className="imgBox">
+              <img src="/images/126804040_364995024777807_3413763511144015053_n.png" />
+            </div>
+            <div className="details">
+            <div className="content">
+              <h2 className="hhh">Facebook Clone</h2>
+              <p className="ppp">Facebook Clone with Firebase. <br /> Develop with HTML5, CSS3 , BootStrap4, React, Firebase, MATERIAL-UI</p>
+              <a href="https://clone-facebook-exi51okvv.vercel.app/login" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
+            </div>
+            </div>       
+          </div>
+
+          <div className="box">
+            <div className="imgBox">
+            <img src="/images/126513249_128318865492542_7415535031019945764_n.png" />
+            </div>
+            <div className="details">
+            <div className="content">
+              <h2 className="hhh">Login and Regsiter</h2>
+              <p className="ppp">Login Website. <br /> Develop with HTML5, CSS3 , BootStrap4, React, Firebase</p>
+              <a href="https://code-kappa.vercel.app/Login" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
+            </div>
+            </div>
+          </div>
+
+          <div className="box">
+            <div className="imgBox">
+            <img src="/images/126804037_1038516469999561_8852452409316177192_n.png" />
+            </div>
+            <div className="details">
+            <div className="content">
+              <h2 className="hhh">Quiz App</h2>
+              <p className="ppp">Quiz About HTML AND JavaScript. <br /> Develop with HTML, CSS , BootStrap4, Javascript, React</p>
+              <a href="https://quiz-app-sigma-three.vercel.app/?fbclid=IwAR0x0-R2uZ-fFJ_DoRvTs6xGFWAsZ0K47A6KCDXlhUBTe8e2aCZ-jOTkzO4" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
+            </div>
+            </div>
+            
+          </div>
+
+
+        </div>
+    </section>
+
     <section className="gallray">
         <div className="gall">
+
+            
+        <div className="box">
+            <div className="imgBox">
+            <img src="/images/blur-close-up-code-computer-546819.jpg" />
+            </div>
+            <div className="details">
+            <div className="content">
+              <h2 className="hhh">How ??</h2>
+              <p className="ppp">How To become Front-end developer. <br /> Develop with HTML5, CSS3 , BootStrap4, React</p>
+              <a href="https://abdulrahmanalaa.netlify.app/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
+            </div>
+            </div>
+          </div>
+
           <div className="box">
             <div className="imgBox">
             <img src="/images/assorted-salads-on-bowls-1640773.jpg" />
@@ -153,23 +222,11 @@ function App() {
             <div className="content">
               <h2 className="hhh">Delivery</h2>
               <p className="ppp">Online Delivery Food. <br /> Develop with HTML5, CSS3 , BootStrap4, React, Redux</p>
-              <a href="https://deliveryonline.netlify.app/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Link</button></a>
+              <a href="https://deliveryonline.netlify.app/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
             </div>
             </div>
           </div>
-  
-          <div className="box">
-            <div className="imgBox">
-            <img src="/images/blur-close-up-code-computer-546819.jpg" />
-            </div>
-            <div className="details">
-            <div className="content">
-              <h2 className="hhh">How ??</h2>
-              <p className="ppp">How To become Front-end developer. <br /> Develop with HTML5, CSS3 , BootStrap4, React</p>
-              <a href="https://abdulrahmanalaa.netlify.app/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Link</button></a>
-            </div>
-            </div>
-          </div>
+
 
           <div className="box">
             <div className="imgBox">
@@ -179,23 +236,11 @@ function App() {
             <div className="content">
               <h2 className="hhh">Delicious</h2>
               <p className="ppp">Template design of food. <br /> Develop with HTML5, CSS3 , BootStrap4, css.animtion</p>
-              <a href="https://abdalrahmanalaa.github.io/Template1/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Link</button></a>
+              <a href="https://abdalrahmanalaa.github.io/Template1/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
             </div>
             </div>
           </div>
 
-          <div className="box">
-            <div className="imgBox">
-            <img src="/images/11.jpg" />
-            </div>
-            <div className="details">
-            <div className="content">
-              <h2 className="hhh">Boots</h2>
-              <p className="ppp">Buy Online football boots. <br /> Develop with HTML5, CSS3 , BootStrap4, React, Redux</p>
-              <a href="https://github.com/AbdulrahmanAlaa10/number_one" target="_blank"><button type="button" className="btnnnn btn btn-danger">Link</button></a>
-            </div>
-            </div>
-          </div>
         </div>
     </section>
 
@@ -203,58 +248,96 @@ function App() {
         <div className="gall">
           <div className="box">
             <div className="imgBox">
-              <img src="/images/man-holding-clapper-board-1117132.jpg" />
+              <img src="/images/126786193_198014251784666_5355289081431041580_n.png" />
             </div>
             <div className="details">
             <div className="content">
               <h2 className="hhh">Search Movie</h2>
               <p className="ppp">Search Movie with API IMDB. <br /> Develop with HTML5, CSS3 , BootStrap4, React, Redux</p>
-              <a href="https://abdulrahmansearchmovie.netlify.app/#/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Link</button></a>
+              <a href="https://abdulrahmansearchmovie.netlify.app/#/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
             </div>
             </div>       
           </div>
 
           <div className="box">
             <div className="imgBox">
-            <img src="/images/close-up-of-computer-keyboard-248515.jpg" />
+            <img src="/images/126516722_394503695234006_3118928028898624353_n.png" />
             </div>
             <div className="details">
             <div className="content">
-              <h2 className="hhh">Smart</h2>
-              <p className="ppp">First Website. <br /> Develop with HTML5, CSS3 , BootStrap4</p>
-              <a href="https://www.instagram.com/p/B56jv3rFN3Y/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Link</button></a>
+              <h2 className="hhh">Design</h2>
+              <p className="ppp">It was task for company in America. <br /> Develop with BootStrap4, React</p>
+              <a href="https://task2-qaclzxiij.vercel.app/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
             </div>
             </div>
           </div>
-
           <div className="box">
             <div className="imgBox">
-            <img src="/images/people-watching-soccer-game-1884574.jpg" />
+            <img src="/images/126867263_378651560118053_8591217303628905586_n.png" />
             </div>
             <div className="details">
             <div className="content">
-              <h2 className="hhh">The Best</h2>
-              <p className="ppp">Information About 10 Team in the world. <br /> Develop with HTML, CSS , BootStrap4, Javascript</p>
-              <a href="https://www.instagram.com/p/B6HefDzlDbX/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Link</button></a>
-            </div>
-            </div>
-            
-          </div>
-          <div className="box">
-            <div className="imgBox">
-            <img src="/images/top-view-photo-of-laptop-near-camera-3178938.jpg" />
-            </div>
-            <div className="details">
-            <div className="content">
-              <h2 className="hhh">Store</h2>
-              <p className="ppp">Design of Products. <br /> Develop with HTML, CSS , BootStrap4, Javascript</p>
-              <a href="https://www.instagram.com/p/B6PMPN3FZZN/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Link</button></a>
+              <h2 className="hhh">Udemy Design</h2>
+              <p className="ppp">Design For Courses. <br /> Develop with HTML, CSS , BootStrap4</p>
+              <a href="https://udemy-nine.vercel.app/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
             </div>
             </div>
           </div>
 
         </div>
     </section>
+
+
+    <section className="gallray" id="work">
+        <div className="gall">
+ 
+
+
+          <div className="box">
+            <div className="imgBox">
+            <img src="/images/126845314_820938145394432_7068137288795235466_n.png" />
+            </div>
+            <div className="details">
+            <div className="content">
+              <h2 className="hhh">Weather App</h2>
+              <p className="ppp">This Website Help you Know weather Today <br /> Develop with HTML5, CSS3 , BootStrap4, JavaScript</p>
+              <a href="https://weather-app-blond-eta.vercel.app/" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
+            </div>
+            </div>
+          </div>
+
+          <div className="box">
+            <div className="imgBox">
+            <img src="/images/126535964_1103572026763890_6476441568342104594_n.png" />
+            </div>
+            <div className="details">
+            <div className="content">
+              <h2 className="hhh">Show My Channel</h2>
+              <p className="ppp">Information About Viedos in my Channel. <br /> Develop with HTML, CSS , BootStrap4, Javascript</p>
+              <a href="https://abdooalaa22.netlify.app/?fbclid=IwAR2EOBOIe8TLfbXVP7mTfm10UuRlGTXWbrjYu2Ebd-A5bPjYy7u5IWFZItE" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
+            </div>
+            </div>
+            
+          </div>
+
+
+          <div className="box">
+            <div className="imgBox">
+            <img src="/images/126925606_886971462046654_4828729268650245404_n (1).png" />
+            </div>
+            <div className="details">
+            <div className="content">
+              <h2 className="hhh">IPTV</h2>
+              <p className="ppp">Website with Client Working Freelancer. <br /> Develop with HTML5, CSS3 , BootStrap4, React, Redux</p>
+              <a href="https://iptv22-icg19fphf.vercel.app/Home" target="_blank"><button type="button" className="btnnnn btn btn-danger">Live</button></a>
+            </div>
+            </div>
+          </div>
+
+
+        </div>
+    </section>
+
 
 
   {/* CONTACT ME */}
@@ -265,7 +348,7 @@ function App() {
     <div className="w3-section">
       <p><i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Cairo Egypt</p>
       <p><i className="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 0201008698567</p>
-      <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>Abdulrahmaanalaa1999@gmail.com</p>
+      <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>Mail: Abdulrahmaanalaa1999@gmail.com</p>
     </div>
   </div>
 

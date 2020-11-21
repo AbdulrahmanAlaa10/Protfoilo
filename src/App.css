@@ -444,9 +444,9 @@ button, input, select, textarea, optgroup {
   .gall {
     width: 100%;
     margin: 30px auto 0 ;
-    display: flex;
     justify-content: center;
-    
+    display: block;
+
   }
 }
 .gall .box {
@@ -537,11 +537,11 @@ button, input, select, textarea, optgroup {
 }
 @media (min-width: 250px) and (max-width: 567px){
   .gall .box .details .content .hhh{
-    margin: -15px 0px 0px 0px;
+    margin: -5px 0px 3px 3px;
     padding: 0;
     top: 6px;
     text-align: start;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: bold;
     color: rgb(0, 175, 137);
   }
@@ -556,10 +556,10 @@ button, input, select, textarea, optgroup {
 }
 @media (min-width: 250px) and (max-width: 567px){
   .gall .box .details .content .ppp {
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 6px 5px;
     padding: 0;
     top: 0px;
-    font-size: 6px;
+    font-size: 9px;
     text-align: start;
 }
 }
@@ -573,10 +573,10 @@ button, input, select, textarea, optgroup {
 @media (min-width: 250px) and (max-width: 567px){
   .btnnnn {
     float: left;
-    width: 62%;
-    font-size: 5px;
+    width: 38%;
+    font-size: 8px;
     margin-right: 5px;
-    margin-left: 1px;
+    margin-left: 6px;
   }
 }
 
